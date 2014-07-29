@@ -39,90 +39,90 @@
 
     <string name="title_section1">Dashboard</string>
     <string name="title_section2">Blacklist</string>
-    <string name="title_section3">Settings</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_section3">Einstellungen</string>
+    <string name="navigation_drawer_open">Öffne die Navigationsleiste</string>
+    <string name="navigation_drawer_close">Schließe die Navigationsleiste</string>
     <string name="action_example">Test</string>
-    <string name="action_settings">Settings</string>
-    <string name="help">Help</string>
-    <string name="about">About</string>
-    <string name="service_name">NotificationService</string>
-    <string name="view_notification">View</string>
-    <string name="dismiss_notification">Dismiss</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="help">Hilfe</string>
+    <string name="about">Über</string>
+    <string name="service_name">Benachrichtigungs Service</string>
+    <string name="view_notification">Ansicht</string>
+    <string name="dismiss_notification">Verwerfen</string>
 
-    <string name="main_menu_popup_timeout_title">Screen timeout</string>
-    <string name="main_menu_popup_timeout_description">Time in seconds that the screen will stay on. Leave blank or zero for system default</string>
-    <string name="main_menu_popup_proximity_title">Proximity sensor timeout</string>
-    <string name="main_menu_popup_proximity_description">How long proximity sensor will be active for pocket mode. Leave blank for default 10sec.</string>
-    <string name="main_menu_popup_orientation_title">Lock orientation</string>
-    <string name="main_menu_popup_orientation_description">Don\'t change orientation of the popup when the device gets tilted.</string>
+    <string name="main_menu_popup_timeout_title">Bildschirm timeout</string>
+    <string name="main_menu_popup_timeout_description">Zeit in Sekunden die der Bildschirm an bleibt. Ohne Eintrag oder Null für den System Standard</string>
+    <string name="main_menu_popup_proximity_title">Annäherungssensor timeout</string>
+    <string name="main_menu_popup_proximity_description">Bestimmt wie lange der Annäherungssensor für den Taschen Modus aktiv bleibt. Ohne Eintrag lassen für den Standard von 10 Sekunden.</string>
+    <string name="main_menu_popup_orientation_title">Sperrbildschirm Ausrichtung</string>
+    <string name="main_menu_popup_orientation_description">Ändert nicht die Ausrichtung des Popup wenn das Gerät gedreht wird.</string>
 
 
-    <string name="about_dialog">\n\n<i>Designed and developed by :</i>
+    <string name="about_dialog">\n\n<i>Designed und entwickelt von:</i>
         \nAnanda Bibek Ray.
-        \n\nFor more details and help, go to any link provided in buttons below
+        \n\nFür mehr Details und Hilfe, klicken Sie bitte auf den Knopf unten
     </string>
 
 
-    <string name="free_version">Blacklist/Whitelist function is not available in the free version of Notific. Please upgrade to the paid version to use this facility and to encourage me to make the app more awesome.
-        \n\nThanks for using Notific.</string>
+    <string name="free_version">Blacklist/Whitelist Funktion ist nicht verfügbar in der kostenlosen Version von Notific. Bitte upgraden Sie auf die kostenpflichtige Version um diese Funktion zu nutzen, das hilft mir die App weiterzuentwickeln und zu perfektionieren.
+        \n\nDanke für das benutzen von Notific.</string>
 
-    <string name="warning_blacklist">You are changing the mode to Blacklist. In this mode, you will get notific popups for ALL apps, EXCEPT the ones you have marked.
-        \n\nDO NOT mark those apps for which you want to get popups.</string>
+    <string name="warning_blacklist">Sie ändern den Modus zur Blacklist. In diesem Modus bekommen Sie Benachrichtigungs Popups von ALLEN Apps, außer von denen die Sie mit einem Hacken makiert haben.
+        \n\nMakiereNICHT die Apps von denen Sie Popup Benachrichtugen bekommen möchten.</string>
 
-    <string name="warning_whitelist">You are changing the mode to Whitelist. In this mode, you will get notific popups for ONLY the apps you have marked.
-        \n\nREMEMBER TO MARK those apps for which you want to get popups.</string>
+    <string name="warning_whitelist">Sie ändern den Modus zur Whitelist. In diesem Modus erhalten Sie nur Benachrichtigungs Popups von Apps welche mit einem Hacken makiert sind.
+        \n\nVergessen Sie nicht die Apps zu makieren von denen Sie Popups erhalten möchten.</string>
 
-    <string name="warning_test_white">It looks like you have turned on \"Whitelist mode\". In this mode, you will get notific popups for ONLY the apps you have marked.
-        \n\nIf you want TEST function to work, you will have to mark Notific in whitelist setting. </string>
+    <string name="warning_test_white">Es sieht aus als hätten Sie den \"Whitelist Modus\" aktiviert. In diesem Modus, zeigt Notific nur Popups von Apps welche Sie makiert haben.
+        \n\nWenn Sie die Funktionen testen wollen, müssen sie in Notific den Blacklist Modus auswählen. </string>
 
-    <string name="warning_test_black">It looks like you have blacklisted Notific.
-        \n\nIf you want TEST function to work, you will have to unmark Notific in blacklist setting. </string>
-    <string name="notification_settings">Notification settings</string>
-    <string name="handle_lowPriority">Show low priority notifications</string>
-    <string name="handle_lowPriority_msg">For example, Google Now weather cards</string>
-    <string name="expanded_title">Show notifications expanded</string>
-    <string name="expanded_msg">Show notifications\' quick action buttons if available</string>
-    <string name="sensor_settings_header">Sensor settings</string>
-    <string name="screenOn_title">Turn screen on</string>
-    <string name="screenOn_msg">Screen will light up for new notifications</string>
-    <string name="pocket_title">Enable pocket mode</string>
-    <string name="pocket_msg">Screen will turn on only after taken out of pocket by checking proximity sensor</string>
-    <string name="orientation_title">Lock popup to portrait</string>
-    <string name="theme_header">Theme settings</string>
-    <string name="select_theme">Select theme</string>
-    <string name="wall_brightness_title">Wallpaper brightness</string>
-    <string name="wall_brightness_msg">Set 0 for full black</string>
-    <string name="slider_padding_title">Slider left/right padding</string>
-    <string name="slider_padding_msg">Increase value (in dp) to decrease slider width. Zero or blank for default</string>
-    <string name="immersive_title">Configure immersive mode</string>
-    <string name="immersive_msg">Choose which system bars to hide</string>
-    <string name="troubleshoot_header">Troubleshooting options</string>
-    <string name="alt_popup_title">Alternate popup mechanism</string>
-    <string name="alt_popup_msg">Recommended for better stability, but popup will appear little late.</string>
-    <string name="calibration_enable">Use custom sensor calibration</string>
-    <string name="calibration_msg">Use this if you are having problems with pocket mode</string>
-    <string name="calibrate_option">Calibrate sensor</string>
-    <string name="sensor_delay">Sensor polling delay</string>
-    <string name="sensor_delay_msg">Increase the value if proximity sensor is not working even after calibration</string>
-    <string name="warning">Warning</string>
-    <string name="go_blacklist">Go to Blacklist settings</string>
-    <string name="test_title_1">Test notification 1</string>
-    <string name="test_body_1">Mr. Jingles says Hi!</string>
-    <string name="action1">Action 1</string>
-    <string name="action2">Action 2</string>
-    <string name="test_title_2">Test notification 2</string>
-    <string name="test_body_2">Mr. Jingles says Hi! Again!!</string>
-    <string name="quick_action">QuickAction</string>
-    <string name="free">Free version</string>
-    <string name="play_store">Upgrade from Play Store</string>
+    <string name="warning_test_black">Es sieht aus als hätten sie den Blacklist Modus aktiviert.
+        \n\nWenn Sie die Funktionen testen wollen, müssen sie in Notific den Blacklist Modus auswählen. </string>
+    <string name="notification_settings">Benachrichtungs Einstellungen</string>
+    <string name="handle_lowPriority">Zeige auch Popups von niedriger Priorität</string>
+    <string name="handle_lowPriority_msg">Zum Beispiel die Google Now Wetter Karte</string>
+    <string name="expanded_title">Zeige erweiterte Benachrichtungs Popups</string>
+    <string name="expanded_msg">Ziege bei der Benachrichtigung schnell aktions Knöpfe, wenn diese verfügbar sind</string>
+    <string name="sensor_settings_header">Sensor Einstellungen</string>
+    <string name="screenOn_title">Schalte den Bildschirm an</string>
+    <string name="screenOn_msg">Der Bildschirm wird aufleuchten, wenn es neue Benachrichtigungen gibt</string>
+    <string name="pocket_title">Aktiviere den Taschen Modus</string>
+    <string name="pocket_msg">Der Bildschirm wird aufleuchten nach dem das gerät aus der Tasche genommen wird, durch kontrollieren des Näherungssesors.</string>
+    <string name="orientation_title">Popup wird nur im Hochformat angezeigt</string>
+    <string name="theme_header">Theme Einstellungens</string>
+    <string name="select_theme">Wähle ein Theme</string>
+    <string name="wall_brightness_title">Einstellungen zum Hintergrundbild</string>
+    <string name="wall_brightness_msg">Stelle 0 ein für komplett Schwarz</string>
+    <string name="slider_padding_title">Bewegungsspanne des Sliders</string>
+    <string name="slider_padding_msg">Erhöhe den Wert (in dp) um den Weg zu verkürzen, leer lassen oder null für System Standard</string>
+    <string name="immersive_title">Einstellungen der Anzeige</string>
+    <string name="immersive_msg">Wähle welche Systembalken ausgeblendet werden</string>
+    <string name="troubleshoot_header">Fehlerbeheungs Optionen</string>
+    <string name="alt_popup_title">Alternativer Popup Mechanismus</string>
+    <string name="alt_popup_msg">Empfohlen für bessere Stabilität, aber das Popup erscheint verzögert.</string>
+    <string name="calibration_enable">Verwenden Sie die benutzerdefinierte Sensorkalibrierung</string>
+    <string name="calibration_msg">Benutzen Sie das, wenn sie Probleme mit dem Taschen Modus haben</string>
+    <string name="calibrate_option">Sensorkalibrierung<string>
+    <string name="sensor_delay">Sensor Abfrageverzögerung</string>
+    <string name="sensor_delay_msg">Erhöhen Sie den Wert, wenn der Näherungssensor nach der Kalibrierung nicht arbeitet</string>
+    <string name="warning">Warnung</string>
+    <string name="go_blacklist">Gehen Sie zur Blacklist Einstellung</string>
+    <string name="test_title_1">Test Benachrichtigung 1</string>
+    <string name="test_body_1">Herr Jingles sagt Hi!</string>
+    <string name="action1">Aktion 1</string>
+    <string name="action2">Aktion 2</string>
+    <string name="test_title_2">Test Benachrichtigung 2</string>
+    <string name="test_body_2">Herr Jingles sagt nochmal Hi!!</string>
+    <string name="quick_action">Schnell Aktion</string>
+    <string name="free">Kostenlose Version</string>
+    <string name="play_store">Upgrade vom Google Play Store</string>
 
 
     <string-array name="immersive_mode">
-        <item>Disabled</item>
-        <item>Hide navigation bar</item>
-        <item>Hide status bar</item>
-        <item>Hide both</item>
+        <item>Beides anzeigen</item>
+        <item>Navigationsleiste ausblenden</item>
+        <item>Statusleiste ausblenden</item>
+        <item>Beides ausblenden</item>
     </string-array>
 
 </resources>
